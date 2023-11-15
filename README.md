@@ -26,7 +26,7 @@
 <p>
     Pour remédier aux limites de cette architecture, on a pensé à insérer un niveau supplémentaire, entre le client et le serveur, pour encapsuler les traitements métier de l’application. On a appelé ce type d’architecture, l’architecture C/S à trois niveaux ou 3-tiers.
 </p>
-<img src="Image1.PNG">
+<img src="Image1.png">
 <ul>
     <li>Couche présentation : représente l'interface Homme/Machine. Elle permet aux utilisateurs de dialoguer avec le système.</li>
     <li>Couche objets métier ou traitement : c’est une couche logicielle entre l’interface utilisateur et la base de données.</li>
@@ -100,10 +100,10 @@
 <p>L’interface d’ajouter permet à l’utilisateur d’ajouter les informations du demande. Après la vérification des données saisies, le système enregistre les informations à la base de données du système.</p>
 <p>Lorsque l’utilisateur clique sur ajouter une demande, il va rediriger sur cette page de saisi d’une demande, et il lui est demandé de saisir toute une série d’informations qui doivent être obligatoirement saisies ou pas, j’utilise des listes déroulantes et des textboxs pour le formulaire,</p>
 <p>Le programme vérifie si la saisie de chacun d’entre eux est correcte, avant d’ajouter la demande et ses caractéristiques dans la base de données.</p>
-<img src="IHMAJOUT.PNG">
+<img src="IHMAJOUT.png">
 
 <h4>INTERFACE DE RECHERCHE D’UNE DEMANDE DE MODIFICATION</h4>
 <p>L’interface de recherche permet à l’utilisateur d’afficher les informations des demandes et la vérification des données saisies sur les demandes.</p>
 <p>Cette fiche affiche plusieurs critères du demande en cliquent sur l'icône « charger le contenue » qui permet de détails les infos sur la demande choisi.</p>
 
-<img src="IHMMODIF.PNG">
+<img src="IHMMODIF.png">
