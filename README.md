@@ -26,7 +26,7 @@
 <p>
     Pour remédier aux limites de cette architecture, on a pensé à insérer un niveau supplémentaire, entre le client et le serveur, pour encapsuler les traitements métier de l’application. On a appelé ce type d’architecture, l’architecture C/S à trois niveaux ou 3-tiers.
 </p>
-<img src="Image1.png">
+<img width="500" height="250" src="Image1.png">
 <ul>
     <li>Couche présentation : représente l'interface Homme/Machine. Elle permet aux utilisateurs de dialoguer avec le système.</li>
     <li>Couche objets métier ou traitement : c’est une couche logicielle entre l’interface utilisateur et la base de données.</li>
