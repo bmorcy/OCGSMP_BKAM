@@ -1,4 +1,9 @@
 <h2>DESCRIPTION GÉNÉRAL DU PROJET</h2>
+<h4>MISE EN PLACE D’UN SYSTEME POUR LA CENTRALISATION, LA GESTION ET LE SUIVI DES DEMANDES DE MODIFICATION DES PROJETS DE BANK AL-MAGHRIB</h4>
+<p>
+Cette étude concerne les modifications des projets de Bank Al-Maghreb, ces modifications ont pour objectif de modifier, créer ou supprimer un des composants de l'infrastructure du projet, donc un ou plusieurs éléments de configuration. Cette modification doit être réalisée dans le respect des méthodes, procédures et processus standardisés. Il est aussi nécessaire de planifier et approuver la faisabilité avant la mise en oeuvre. Il est aussi prévu de réaliser le suivi des modifications, ainsi que d'en informer les services impactés.
+</p>
+
 <h3>ARCHITECTURE DU PROJET</h3>
 <h4>ARCHITECTURE CLIENT/SERVEUR A TROIS NIVEAUX</h4>
 <p>
@@ -26,7 +31,7 @@
 <p>
     Pour remédier aux limites de cette architecture, on a pensé à insérer un niveau supplémentaire, entre le client et le serveur, pour encapsuler les traitements métier de l’application. On a appelé ce type d’architecture, l’architecture C/S à trois niveaux ou 3-tiers.
 </p>
-<img width="500" height="250" src="Image1.png">
+<img width="500" height="250" src="Image1.png" >
 <ul>
     <li>Couche présentation : représente l'interface Homme/Machine. Elle permet aux utilisateurs de dialoguer avec le système.</li>
     <li>Couche objets métier ou traitement : c’est une couche logicielle entre l’interface utilisateur et la base de données.</li>
